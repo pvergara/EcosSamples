@@ -1,8 +1,9 @@
 package com.ecos.examples.mapviewv1;
 
+import roboguice.activity.RoboFragmentActivity;
 import android.os.Bundle;
 
-public class MainActivity extends android.support.v4.app.FragmentActivity {
+public class MainActivity extends RoboFragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
